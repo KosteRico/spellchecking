@@ -1,9 +1,16 @@
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
-        String word = "smn";
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Input your word: ");
+
+        String word = scanner.next();
+
+        scanner.close();
 
         Spellchecker spellchecker = new Spellchecker();
 

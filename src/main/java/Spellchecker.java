@@ -4,7 +4,8 @@ public class Spellchecker {
 
     public Spellchecker() {
         dictionaryBuilder = new DictionaryBuilder();
-        setFiles(dictionaryBuilder, "textfiles/dorian_gray.txt",
+        setFiles(dictionaryBuilder,
+                "textfiles/dorian_gray.txt",
                 "textfiles/hamlet.txt",
                 "textfiles/prime_and_predjustice.txt",
                 "textfiles/Martin_Eden.txt",
